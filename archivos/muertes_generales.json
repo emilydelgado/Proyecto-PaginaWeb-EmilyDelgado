@@ -1,0 +1,22 @@
+{
+  "titulo": "Muertes Generales por Chernóbil",
+  "total_estimado": 94000,
+  "detalle": {
+    "hombres": {
+      "muertes_inmediatas": 20,
+      "muertes_por_radiacion": 2500,
+      "muertes_indirectas": 40000
+    },
+    "mujeres": {
+      "muertes_inmediatas": 8,
+      "muertes_por_radiacion": 1500,
+      "muertes_indirectas": 35000
+    },
+    "niños": {
+      "muertes_inmediatas": 3,
+      "muertes_por_radiacion": 500,
+      "muertes_indirectas": 15000
+    }
+  },
+  "fuente": "Estimaciones basadas en datos históricos y proyecciones de la OMS y estudios independientes"
+}

@@ -1,0 +1,953 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+
+section {
+  width: 100%;        
+  margin: 0;           
+  padding: 0;        
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #000;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+/* FONDOS POR SECCION */
+.inicio-fondo {
+  background-image: url('https://assets.kyivindependent.com/content/images/2024/03/Chornobyl.gif');
+}
+
+.capitulos-fondo {
+  background-image: url('https://images.seattletimes.com/wp-content/uploads/2016/04/1943a9fe-09a5-11e6-bc9d-9cf6997a3be8.jpg?d=2040x1360');
+}
+
+.unocap-fondo {
+  background-image: url('https://64.media.tumblr.com/b42ed50a8a90afc5be3c0656dba8bd8e/tumblr_pslag9k6AJ1sx88n2o2_540.gif');
+}
+
+.unocap1-fondo {
+  background-image: url('https://i.pinimg.com/originals/c1/49/ae/c149ae5d7d6bb645af19e980cd08cd3c.gif');
+}
+
+.unocap2-fondo {
+  background-image: url("https://sm.ign.com/t/ign_me/review/c/chernobyl-/chernobyl-episode-5-vichnaya-pamyat-series-finale-recap_5r6r.1200.jpg");
+}
+
+.unocap4-fondo {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNDY0NjE5YTctYzhmMC00MjRiLTg1NjItMDQ1MzVkYzhkN2I3XkEyXkFqcGc@._V1_.jpg");
+}
+
+.unocao44-fondo {
+  background-image: url("https://i.makeagif.com/media/5-22-2019/KPI1dZ.gif");
+}
+
+.unocap5-fondo {
+  background-image: url("https://thats-normal.com/wp-content/uploads/2019/05/Chernobyl.jpeg");
+}
+
+.doscap-fondo {
+  background-image: url('https://www.bing.com/th/id/OGC.8082bdd768bded946a3a166e8ff1c6e3?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fc4%2fa2%2ff4%2fc4a2f49d965388246e930e8f96257297.gif&ehk=nMCyxb3LsNlw6CHct3QF%2f%2fhpc4%2fj6z%2b6bEGH4utgr%2fc%3d');
+}
+
+.doscap2-fondo {
+  background-image: url('https://66.media.tumblr.com/3b4dcecc1d0f13cc25de0ad06c527c31/tumblr_prbcva6Kz81qi6ht9o5_r2_500.gif');
+}
+
+.doscap3-fondo {
+  background-image: url('https://mobile-img.lpcdn.ca/lpca/924x/r3996/d8edb64a-894f-11e9-9f79-0e7266730414.jpg');
+}
+
+.doscap4-fondo {
+  background-image: url('https://media.giphy.com/media/h78Gn0VhAuLF80giXL/giphy-downsized-large.gif');
+}
+
+.doscap5-fondo {
+  background-image: url('https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1067A/production/_106649176_plume.jpg');
+}
+
+.doscap6-fondo {
+  background-image: url('archivos/evacuacionn.gif');
+}
+
+.doscap7-fondo {
+  background-image: url('https://i.ytimg.com/vi/9ItNmMUEOu8/maxresdefault.jpg');
+}
+
+.doscap8-fondo {
+  background-image: url('https://pastoralsj.org/wp-content/uploads/2019/04/chernobyl2.jpg');
+}
+
+.doscap9-fondo {
+  background-image: url('https://i.pinimg.com/originals/10/56/31/1056311f39512f8fe486fc011dd5e96c.gif');
+}
+
+.doscap10-fondo {
+  background-image: url('archivos/liquidadores9.gif');
+}
+
+.doscap11-fondo {
+  background-image: url('archivos/liquidadores1.png');
+}
+
+.doscap12-fondo {
+  background-image: url('archivos/operacion2.gif');
+}
+
+.doscap13-fondo {
+  background-image: url('https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/07152721/Chernobyl-43.jpg');
+}
+
+.doscap14-fondo {
+  background-image: url('https://www.ualberta.ca/en/folio/media-library/2020/05/200515-chernobyl-banner.jpg');
+}
+
+.doscap15-fondo {
+  background-image: url('https://cdn-3.expansion.mx/dims4/default/c985026/2147483647/strip/true/crop/4240x2832+0+0/resize/1200x802!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F97%2Fd5%2Fbc7308664dfd829661ce27c8e89c%2Fchernobyl-s1-ep3-1.jpg');
+}
+
+.trescap-fondo {
+  background-image: url('https://64.media.tumblr.com/3b349af8ade801da9ca586b6a2ab358a/tumblr_prjjwr9q4n1wu1av7o1_540.gifv');
+}
+
+.trescap2-fondo {
+  background-image: url('https://focus.independent.ie/thumbor/NEmYhGfvst5fumEOOiEcgZ9u58A=/1280x853/smart/prod-mh-ireland/56556974-c30f-11ed-8ebc-0210609a3fe2.jpg');
+}
+
+.trescap3-fondo {
+  background-image: url('https://static-cdn.toi-media.com/www/uploads/2019/06/d6e3d9c42c9a168a1f7c8d0a853a148fd927a908cdb87d9ccc373f3af1bd808a420d2bd4b99a68ea18b726894d9c7e8a-e1561626634150.jpg');
+}
+
+.trescap4-fondo {
+  background-image: url('https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/ATJ4SKFFRVEVVGH2YGSFFCKB5Q.JPG?auth=09eab4358ae915a3fdbe3f7e23f34279ffa9766d9a2d25460d0848cf1eaf269e&quality=80&height=553&width=830&smart=true');
+}
+
+.trescap5-fondo {
+  background-image: url('https://cdn.cancerletter.com/media/2019/05/chernobyl.jpeg');
+}
+
+.trescap6-fondo {
+  background-image: url('https://c.files.bbci.co.uk/8D70/production/_107980263_chernobil02.jpg');
+}
+
+.trescap7-fondo {
+  background-image: url('https://images.ahoranoticias.cl/2019/05/09/260445_2_5cd4558a1820e.jpg');
+}
+
+.cuatrocap-fondo {
+  background-image: url('https://64.media.tumblr.com/c335363c8b8f33f9e26c3056c31eac75/tumblr_ps88fdO5YY1u4mwxfo1_540.gif');
+}
+
+.cuatrocap2-fondo {
+  background-image: url('https://media.a24.com/p/da68aaba443220ca7dde63d41ef6c3bc/adjuntos/296/imagenes/009/148/0009148152/1200x675/smart/sala-control-chernobyljpg.jpg');
+}
+
+.cuatrocap3-fondo {
+  background-image: url('https://i.ebayimg.com/images/g/faQAAOSwSglkBPzp/s-l1200.jpg');
+}
+
+.cuatrocap4-fondo {
+  background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/artear/4RCKSSYOONFZ7KCUB6K2FG4RSY.jpg');
+}
+
+.cuatrocap5-fondo {
+  background-image: url('https://mf.b37mrtl.ru/rbthmedia/images/2019.06/original/5cf8c99185600a65e348757c.jpg');
+}
+
+.cuatrocap6-fondo {
+  background-image: url('https://elordenmundial.com/wp-content/uploads/2020/04/38187423006_7d9bf7eecf_c.jpg');
+}
+
+.cuatrocap7-fondo {
+  background-image: url('https://preview.redd.it/me582bjc2wn41.jpg?width=640&crop=smart&auto=webp&s=9c48bd1039fe480d34f56262b2494a9c6b766416');
+}
+
+.cincocap2-fondo {
+  background-image: url('https://outline-prod.imgix.net/20190128-oI5EMDx1imE4ybYK4W0W?auto=format&q=60&w=1280&s=dfd24bf8fe81ec0be99a28c9846fdc56');
+}
+
+.cinco-fondo {
+  background-image: url('https://www.shutterstock.com/image-photo/pripyat-chernobyl-exclusion-zone-ukraine-600nw-2140757491.jpg');
+}
+
+
+.cincocap3-fondo {
+  background-image: url('https://media.gq.com.mx/photos/5d0275b87977247c5309e91a/16:9/w_2560%2Cc_limit/chernobyl.jpg');
+}
+
+
+.cincocap4-fondo {
+  background-image: url('https://media1.popsugar-assets.com/files/thumbor/gUt2TwV7Sx4FQs5ytvLMfYW-2vg=/fit-in/792x553/top/filters:format_auto():upscale()/2019/04/29/152/n/1922283/tmp_wKBcQo_e680b7887e8de748_GettyImages-72450926.jpg');
+}
+
+
+.ultimoya-fondo {
+  background-image: url('https://mf.b37mrtl.ru/rbthmedia/images/2017.10/article/59f874bd85600a15903246b6.jpg');
+}
+
+.cincocap-fondo {
+  background-image: url('https://media.giphy.com/media/es8pJT2Mv28VO/giphy.gif');
+}
+
+.cincocap6-fondo {
+  background-image: url('archivos/CAP5.gif');
+}
+
+
+/*  DISEÑO DE FONDOS */
+.inicio-fondo,
+.intro-fondo,
+.capitulos-fondo,
+.contacto-fondo,
+.unocap-fondo,
+.unocap1-fondo,
+.unocap2-fondo,
+.unocap4-fondo,
+.unocao44-fondo,
+.unocap5-fondo,
+.doscap-fondo,
+.doscap2-fondo,
+.doscap3-fondo,
+.doscap4-fondo,
+.doscap5-fondo,
+.doscap6-fondo,
+.doscap7-fondo,
+.doscap8-fondo,
+.doscap9-fondo,
+.doscap10-fondo,
+.doscap11-fondo,
+.doscap12-fondo,
+.doscap13-fondo,
+.doscap14-fondo,
+.doscap15-fondo,
+.trescap-fondo,
+.trescap2-fondo,
+.trescap3-fondo,
+.trescap4-fondo,
+.trescap5-fondo,
+.trescap6-fondo,
+.trescap7-fondo,
+.cuatrocap-fondo,
+.cuatrocap2-fondo,
+.cuatrocap3-fondo,
+.cuatrocap4-fondo,
+.cuatrocap5-fondo,
+.cuatrocap6-fondo,
+.cuatrocap7-fondo,
+.cincocap2-fondo,
+.cinco-fondo,
+.ultimoya-fondo,
+.cincocap3-fondo,
+.cincocap4-fondo,
+.cincocap6-fondo,
+.cincocap-fondo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;  
+
+}
+
+
+
+.filtronegro {
+  position: absolute;
+  inset: 0; 
+  background-color: rgba(0,0,0,0.6); 
+  z-index: 0; 
+}
+
+.fondotransicion {
+  position: absolute;
+  inset: 0; 
+  background-color: black; 
+  z-index: 0; 
+  animation: fadeInFondo 4s ease forwards;
+}
+
+/* Animacion*/
+@keyframes fadeInFondo {
+  0%   { background-color: black; }
+  40%  { background-color: rgba(19, 18, 18, 0.815); }
+  70%  { background-color: rgba(0,0,0,0.4); }
+  100% { background-color: transparent; }
+}
+
+.unocap3-fondo {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.unocap3-fondo video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  object-position: center; 
+  background-color: black; 
+  z-index: 0;
+}
+
+
+/* Contenido centrado y para los parrafos  */
+.introduccion-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 20px;
+}
+
+.intro-caja-parrafo {
+  background-color: rgba(0, 0, 0, 0.171);
+  border: 1px solid rgba(161, 161, 161, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  color: #363636;
+  font-size: 1.1rem;
+  line-height: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20rem;
+}
+
+.parrafos {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 5rem auto;
+  line-height: 1.7;
+  opacity: 0.85;
+  color: #e6e6e6;
+}
+
+.descripciones {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 1rem auto;
+  line-height: 1.7;
+  opacity: 0.85;
+  color: #c9c9c9;
+}
+
+.inicio-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: flex-start; 
+  min-height: 100vh;        
+  padding-top: 4rem;         
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  z-index: 1;
+  position: relative; 
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+
+.intro-caja {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+
+
+
+
+/* STYLE PARA EL MENU PRINCIPAL DE TODAS LAS SECCIONES*/
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 1000;
+}
+
+
+
+nav#mainMenu {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: #222;
+  padding: 1rem;
+  border: 1px solid #444;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0.5rem 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* STYLE PARA EL MENU DE CAPITULOS EN LA SECCION DE CAPITULOS*/
+.encabezado-capitulos {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 0;
+  position: relative; 
+  z-index: 1;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+
+
+header + .capitulos-menu {
+  margin-top: 0;
+  padding-top: 0;
+  padding: 2rem;
+  margin-top: 0.5rem;
+}
+
+
+.capitulos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+
+}
+
+
+.capitulo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.numero {
+  width: 90%;
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+
+
+/*numeros de los capitulos*/
+.imagen-con-numero {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px; 
+}
+
+.imagen-con-numero img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.numero-capitulo {
+  position: absolute;
+  top: 50%;              
+  left: 50%;            
+  transform: translate(-50%, -50%); 
+  color: white;         
+  font-size: 2rem;      
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black; 
+}
+
+
+
+
+/* STYLE PARA LA SECCION DEL FORMULARIO*/
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.formulario button {
+  padding: 0.8rem 2rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+
+.pregunta {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.formulario-titulo {
+  text-align: center;
+  padding-top: 4rem;
+  margin-bottom: 0;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.formulario-bloque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;   
+  z-index: 1;
+}
+
+
+.formulario-bloque textarea,
+.formulario-bloque input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  position: relative; 
+  z-index: 1;
+}
+
+
+
+
+/* STYLE PARA LA PARTE DE DATOS DESCARGABLES EN EL FORMULARIO*/
+.datos-header {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 0;
+  position: relative; z-index: 1;
+}
+
+.tabla-descargas table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative; z-index: 1;
+}
+
+.tabla-descargas {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+  position: relative; z-index: 1;
+}
+
+.tabla-descargas td {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #444;
+  color: #fff;
+  position: relative; z-index: 1;
+}
+
+.tabla-descargas th {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  position: relative; z-index: 1;
+}
+
+
+.tabla-descargas button {
+  padding: 0.5rem 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  opacity: 0.6;
+  position: relative; z-index: 1;
+}
+
+
+
+
+/* STYLE PARA LA SECCION DE CONTACTO*/
+.contacto-seccion {
+  width: 100%;
+  background-color: rgba(80, 80, 80, 0.4);
+  padding: 2rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.contacto-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+  color: white;
+}
+
+.contacto-datos {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.final {
+  text-align: center;
+  margin-top: 3rem;
+  color: white;
+}
+
+.final h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+  position: relative;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1.4);
+}
+
+
+
+
+
+
+/*menu de los capitulos 12345 */
+.menu-flechita {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 4000;
+}
+
+.menu-vertical {
+  position: fixed;
+  top: 0;
+  right: -100%; 
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(30, 30, 30, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 4rem;
+  gap: 2rem;
+  transition: right 0.4s ease;
+  overflow-y: auto; 
+  z-index: 10;
+}
+
+.menu-vertical.open {
+  right: 0;
+}
+
+.capitulo-caja {
+   max-height: 300px;
+  width: 300px;
+  text-align: center;
+  color: white;
+    line-height: 1;
+
+}
+
+.capitulo-caja img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  flex-shrink: 0;
+  line-height: 7;
+
+}
+
+.capitulo-caja p {
+  margin-top: 0.1rem;
+  font-size: 1rem;
+  color: white;
+  line-height: 7;
+}
+
+.capitulo-caja a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+
+
+
+/* capitulo 1 */
+.capitulo1-contenido {
+  position: relative;
+  z-index: 1; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+  font-family: 'Merriweather', serif;
+
+  
+}
+
+.capitulo1-contenido h1 {
+  font-size: 4rem;
+  margin-bottom: 2,5rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.capitulo1-contenido h2 {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.capitulo1-contenido h4 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.7;
+}
+
+.capitulo1-contenido p {
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.reactor {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.185); 
+  padding: 0; 
+  border-radius: 6px; 
+    max-width: 500px
+
+}
+
+.reactor img {
+  display: block;
+  height: auto;
+  width: 90%;
+}
+
+
+/*boris y el legosnoseque*/
+.nombrebl {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;         
+  width: 220px; 
+}
+
+.laotracajaborisylais {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.imgpeoplepipi {
+  width: 100%;               
+  height: 280px;             
+  object-fit: cover;          
+  border-radius: 8px;
+}
+
+
+ /* Sección de la gráfica */
+#graficaRadiacion {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  background-color: transparent; 
+  display: block;
+}
+
+#graficaEvacuacion {
+  width: 100%;
+  max-width: 600px;       
+  aspect-ratio: 4 / 4;   
+  background-color: transparent;
+  padding: 0;
+  margin: 0 auto;  
+}
+
+#graficaLiquidadores {
+  width: 100%;
+  max-width: 800px;        
+  aspect-ratio: 4 / 4;     
+  background-color: transparent;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#graficaPacientesRadiacion {
+  width: 100%;
+  max-width: 800px;       
+  aspect-ratio: 4 / 4;     
+  background-color: transparent;
+  padding: 0;
+  margin: 0 auto;
+}
